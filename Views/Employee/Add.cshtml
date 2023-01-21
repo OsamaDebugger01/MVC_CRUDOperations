@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Add Employee</h1>
+
+<form action="/Employee/AddEmpDb">
+    <label for="Fname">FirstName</label>
+    <input id="Fname" name="Fname" type="text"/>
+
+    <label for="Mname">MiddleName</label>
+    <input id="Mname" name="Mname" type="text" />
+
+    <label for="Lname">LastName</label>
+    <input id="Lname" name="Lname" type="text"/>
+
+    <label for="bdate">Birth Date</label>
+    <input id="bdate" name="Bdate" type="text" />
+
+    <label for="address">Address</label>
+    <input id="address" name="Address" type="text" />
+
+    <label for="sex">Male</label>
+    <input id="sex" name="Sex" type="radio" value="male"/>
+
+
+    <label for="sex">Female</label>
+    <input id="sex" name="Sex" type="radio" value="female"/>
+
+    <label for="sal">Salary</label>
+    <input id="sal" name="Salary" type="number" />
+
+    <input type="submit" value="Add" />
+</form>
